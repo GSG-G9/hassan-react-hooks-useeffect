@@ -1,0 +1,22 @@
+.images-randoms-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid rgb(218, 211, 211);
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+label {
+	text-align: center;
+	display: block;
+	font-size: 1.25rem;
+}
+.image-text {
+	display: block;
+	border-radius: 0.25rem;
+	line-height: 2;
+	font-weight: 800;
+	font-size: 1.25rem;
+}

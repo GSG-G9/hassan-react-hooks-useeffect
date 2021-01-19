@@ -1,0 +1,16 @@
+.signup-error {
+	color: red;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
