@@ -1,0 +1,66 @@
+.profile-card {
+	width: 600px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid black;
+	background: rgba(95, 91, 91, 0.2);
+}
+
+.image-container {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-image {
+	max-width: 100%;
+}
+
+.profile-buttons {
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.profile-button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid transparent;
+}
+
+.profile-button:hover {
+	border-bottom: 2px solid black;
+}
+
+.far,
+.fas {
+	font-size: 20px;
+}
+
+.input {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	cursor: pointer;
+}
+
+.fetch-error {
+	color: red;
+}
+
+.fa-pen-fancy {
+	color: rgb(238, 186, 186);
+}
